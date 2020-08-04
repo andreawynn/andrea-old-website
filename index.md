@@ -2,7 +2,7 @@
 
 ---
 
-### Category Name
+### Independent Projects
 
 [Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/red_riding_hood)
 <img src="images/red_riding_hood_logo.jpg?raw=true"/>
@@ -17,12 +17,13 @@
 
 ---
 
-### Category Name 2
+### Certifications and Awards
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+- [TechPointX SOS Challenge 2020 Winning Submission: Red Riding Hood](https://devpost.com/software/red-riding-hood-2i47k3)
+- [Kaggle Intermediate Machine Learning Certification](https://www.kaggle.com/learn/certification/andreawynn/intermediate-machine-learning)
+- [Kaggle Introductory Machine Learning Certification](https://www.kaggle.com/learn/certification/andreawynn/intro-to-machine-learning)
+- [Kaggle Python Certification](https://www.kaggle.com/learn/certification/andreawynn/python)
+- [HackerRank Java Certification](https://www.hackerrank.com/certificates/8e67b1460247)
+- [TutorMe Certified Tutor Profile](https://tutorme.com/tutors/264453/)
 
 
