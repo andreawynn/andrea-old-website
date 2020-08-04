@@ -1,6 +1,6 @@
 ## Red Riding Hood Project
 
-**Project Description:** 
+### Project Description
 <br><br>
 COVID has caused an increase in food insecurity around the country. Food banks and pantries have adjusted their operations to accommodate this increased demand. They have done this with fewer volunteers because most of their regular volunteers are high-risk and encouraged to stay home.
 <br><br>
@@ -10,7 +10,7 @@ This project started as a competition submission for the TechPointX SOS Challeng
 <br><br>
 See more details about this project, as well as the SOS Challenge submission on DevPost, in the Project Links below. 
 
-**Project Links:** <br>
+### Project Links
 <a href="https://youtu.be/pg4wzs5vt6g">View Video Presentation</a> <br>
 <a href="https://devpost.com/software/red-riding-hood-2i47k3">View DevPost Submission</a> <br>
 <a href="https://github.com/sodonova/CommunityNonprofit10">View GitHub Repository</a> <br>
@@ -47,18 +47,18 @@ Throughout the course of the SOS challenge, the Red Riding Hood team gained sign
 
 The Red Riding Hood team used the Model-View-ViewModel (MVVM) architecture, adapted for Android, to structure the project. This architecture provides a framework for building robust, scalable, and production quality apps. More details about this architecture may be found here: https://developer.android.com/jetpack/guide.
 
-*Version Control*
+*Version Control* <br>
 GitHub - The team chose to use GitHub for version control in collaboration with multiple developers. The GitHub repository with the source code for the project can be found <a href="https://github.com/sodonova/CommunityNonprofit10">here</a>.
 
-*Editing Tools*
+*Editing Tools* <br>
 Android Studio - The team chose to use Android Studio because it is designed for building Android apps and has an intuitive, easy-to-use interface. 
 
-*Programming Languages*
-Java - The developers all had prior experience with this language, so it was a logical decision to use Java for the app. Android Studio also provides additional documentation to help developers create apps.
+*Programming Languages* <br>
+Java - The developers all had prior experience with this language, so it was a logical decision to use Java for the app. Android Studio also provides additional documentation to help developers create apps. <br>
 XML - This language was used to build the front-end user interface for the app.
 
-*Back-end Database*
+*Back-end Database* <br>
 Firebase - The team chose Firebase Firestore for the backend database because it integrated easily into Android Studio and it handles data well for the purposes of the app. Firestore is a NOSQL database, a non-relational database that supports high volume usage and easy scalability.
 
-*Task Management*
+*Task Management* <br>
 Trello - The team used Trello to distribute tasks and keep track of progress throughout the project. The Trello board was set up and used in an Agile-style fashion throughout the 5-week challenge, and the team continues to use this tool to keep track of tasks, future goals, and bugs that need to be fixed.
