@@ -2,10 +2,10 @@
 
 ---
 
-### Category Name 1 
+### Category Name
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Red Riding Hood App (TechPointX SOS Challenge 1st Place Winner in Category)](/sample_page)
+<img src="images/red_riding_hood_logo.jpg?raw=true"/>
 
 ---
 [Project 2 Title](/pdf/sample_presentation.pdf)
