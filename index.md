@@ -4,7 +4,7 @@
 
 ### Category Name
 
-[Red Riding Hood App (TechPointX SOS Challenge Nonprofit Category Winner)](/sample_page)
+[Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/sample_page)
 <img src="images/red_riding_hood_logo.jpg?raw=true"/>
 
 ---
