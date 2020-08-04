@@ -1,4 +1,4 @@
-## Red Riding Hood Project
+## Red Riding Hood
 
 ### Project Description
 COVID has caused an increase in food insecurity around the country. Food banks and pantries have adjusted their operations to accommodate this increased demand. They have done this with fewer volunteers because most of their regular volunteers are high-risk and encouraged to stay home.
