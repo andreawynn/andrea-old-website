@@ -1,7 +1,6 @@
 ## Red Riding Hood Project
 
 ### Project Description
-<br><br>
 COVID has caused an increase in food insecurity around the country. Food banks and pantries have adjusted their operations to accommodate this increased demand. They have done this with fewer volunteers because most of their regular volunteers are high-risk and encouraged to stay home.
 <br><br>
 Red Riding Hood is an app that is designed to streamline the process of food selection and delivery for food pantries. Customers can select specific baskets of food that the pantry has in stock based on their dietary restrictions and select a preferred pick-up time.
