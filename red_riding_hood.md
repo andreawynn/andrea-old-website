@@ -1,6 +1,13 @@
 ## Red Riding Hood Project
 
-**Project Description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+**Project Description:** <br>
+COVID has caused an increase in food insecurity around the country. Food banks and pantries have adjusted their operations to accommodate this increased demand. They have done this with fewer volunteers because most of their regular volunteers are high-risk and encouraged to stay home.
+<br>
+Red Riding Hood is an app that is designed to streamline the process of food selection and delivery for food pantries. Customers can select specific baskets of food that the pantry has in stock based on their dietary restrictions and select a preferred pick-up time.
+<br>
+This project started as a competition submission for the TechPointX SOS Challenge in the summer of 2020. This challenge sought to bring students together to address novel challenges presented by the COVID-19 pandemic. After the conclusion of the challenge, I am continuing to work on this project with my team members in the hopes that this app will benefit food banks both during and after this crisis. 
+<br>
+See more details about this project, as well as the SOS Challenge submission on DevPost, in the Project Links below. 
 
 **Project Links:** <br>
 <a href="https://youtu.be/pg4wzs5vt6g">View Video Presentation</a> <br>
