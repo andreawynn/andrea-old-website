@@ -44,7 +44,7 @@ Throughout the course of the SOS challenge, the Red Riding Hood team gained sign
 
 ### Technical Architecture and Tools Used
 
-The Red Riding Hood team used the Model-View-ViewModel (MVVM) architecture, adapted for Android, to structure the project. This architecture provides a framework for building robust, scalable, and production quality apps. More details about this architecture may be found here: https://developer.android.com/jetpack/guide.
+The Red Riding Hood team used the Model-View-ViewModel (MVVM) architecture, adapted for Android, to structure the project. This architecture provides a framework for building robust, scalable, and production quality apps. More details about this architecture may be found <a href="https://developer.android.com/jetpack/guide">here</a>.
 
 *Version Control* <br>
 GitHub - The team chose to use GitHub for version control in collaboration with multiple developers. The GitHub repository with the source code for the project can be found <a href="https://github.com/sodonova/CommunityNonprofit10">here</a>.
