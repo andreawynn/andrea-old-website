@@ -2,11 +2,11 @@
 
 **Project Description:** Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-**Project Links:**
-<a href="https://youtu.be/pg4wzs5vt6g">View Video Presentation</a> 
-<a href="https://devpost.com/software/red-riding-hood-2i47k3">View DevPost Submission</a> 
-<a href="https://github.com/sodonova/CommunityNonprofit10">View GitHub Repository</a> 
-<a href="https://play.google.com/store/apps/details?id=com.rrhteam.nonprofitapp&hl=en_US">View App on Google Play Store</a> 
+**Project Links:** <br>
+<a href="https://youtu.be/pg4wzs5vt6g">View Video Presentation</a> <br>
+<a href="https://devpost.com/software/red-riding-hood-2i47k3">View DevPost Submission</a> <br>
+<a href="https://github.com/sodonova/CommunityNonprofit10">View GitHub Repository</a> <br>
+<a href="https://play.google.com/store/apps/details?id=com.rrhteam.nonprofitapp&hl=en_US">View App on Google Play Store</a> <br>
 
 ### 1. Suggest hypotheses about the causes of observed phenomena
 
