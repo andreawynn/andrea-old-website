@@ -8,7 +8,7 @@
 <img src="images/red_riding_hood_logo.jpg?raw=true"/>
 
 ---
-[Project 2 Title](/pdf/sample_presentation.pdf)
+[Backpat Volunteer Tutoring](/backpat)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
