@@ -4,15 +4,15 @@
 
 ### Independent Projects
 
-[Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/red_riding_hood)
+[Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/red_riding_hood) <br>
 <img src="images/red_riding_hood_logo.jpg?raw=true" height="200" width="200"/>
 
 ---
-[Backpat Volunteer Tutoring](/backpat)
+[Backpat Volunteer Tutoring](/backpat) <br>
 <img src="images/backpat_logo.png?raw=true" height="200" width="200"/>
 
 ---
-[Project 3 Title](http://example.com/)
+[Project 3 Title](http://example.com/) <br>
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
 
 ---
