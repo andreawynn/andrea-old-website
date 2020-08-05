@@ -7,6 +7,8 @@ Red Riding Hood is an app that is designed to streamline the process of food sel
 <br><br>
 This project started as a competition submission for the TechPointX SOS Challenge in the summer of 2020. This challenge sought to bring students together to address novel challenges presented by the COVID-19 pandemic. After the conclusion of the challenge, I am continuing to work on this project with my team members in the hopes that this app will benefit food banks both during and after this crisis. 
 <br><br>
+The Red Riding Hood app won the SOS challenge in the Community-Based Nonprofits category (out of 10 teams) with a perfect technical score and the highest overall score of any team in the competition (with 90+ teams competing in 9 different categories). The judges awarded this score for the seamless and intuitive user flow. Additionally, the project was presented to Governor Eric Holcomb of Indiana State, who commended this project for its timely and effective solution to a pressing issue caused by COVID-19. 
+<br><br>
 See more details about this project, as well as the SOS Challenge submission on DevPost, in the Project Links below. 
 
 ### Project Links
