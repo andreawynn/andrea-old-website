@@ -12,10 +12,6 @@
 <img src="images/backpat_logo.png?raw=true" height="200" width="200"/>
 
 ---
-[Project 3 Title](http://example.com/) <br>
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
 
 ### Certifications and Awards
 
