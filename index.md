@@ -14,13 +14,10 @@
 ---
 
 ### Course Projects
-*Please note that I cannot provide source code or other files due to academic integrity policies at Rose-Hulman.*
+*Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
 [Project1](/backpat) <br>
-<img src="images/backpat_logo.png?raw=true" height="200" width="200"/>
-
 [Project2](/backpat) <br>
-<img src="images/backpat_logo.png?raw=true" height="200" width="200"/>
 
 ### Certifications and Awards
 
