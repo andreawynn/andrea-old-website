@@ -9,7 +9,7 @@
 
 ---
 [Backpat Volunteer Tutoring](/backpat)
-<img src="images/backpat_logo.png"?raw=true" height="500" width="500"/>
+<img src="images/backpat_logo.png?raw=true" height="500" width="500"/>
 
 ---
 [Project 3 Title](http://example.com/)
