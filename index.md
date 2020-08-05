@@ -16,8 +16,7 @@
 ### Course Projects
 *Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
-[Project1](/backpat) <br>
-[Project2](/backpat) <br>
+*This section is still being constructed, please check back later.*
 
 ### Certifications and Awards
 
