@@ -16,7 +16,7 @@
 ### Course Projects
 *Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
-*This section is still being constructed, please check back later.*
+*This section is still being constructed, please check back later.* <br>
 [Bare-Metal Operating System Project](/baremetal_os) <br>
 [Computer Processor Project](/backpat) <br>
 [Essay Grader Natural Language Processing Project](/backpat) <br>
