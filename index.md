@@ -17,6 +17,13 @@
 *Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
 *This section is still being constructed, please check back later.*
+[Bare-Metal Operating System Project](/backpat) <br>
+[Computer Processor Project](/backpat) <br>
+[Essay Grader Natural Language Processing Project](/backpat) <br>
+[Scheme Programming Language Interpreter Project](/backpat) <br>
+[Choose-Your-Own-Adventure Database Project](/backpat) <br>
+[A* Map Navigation Project](/backpat) <br>
+[Bubble Bobble Arcade Game Project](/backpat) <br>
 
 ### Certifications and Awards
 
