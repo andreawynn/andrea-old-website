@@ -18,12 +18,7 @@
 
 *This section is still being constructed, please check back later.* <br>
 [Bare-Metal Operating System Project](/baremetal_os) <br>
-[Computer Processor Project](/backpat) <br>
-[Essay Grader Natural Language Processing Project](/backpat) <br>
-[Scheme Programming Language Interpreter Project](/backpat) <br>
-[Choose-Your-Own-Adventure Database Project](/backpat) <br>
-[A* Map Navigation Project](/backpat) <br>
-[Bubble Bobble Arcade Game Project](/backpat) <br>
+
 
 ### Certifications and Awards
 
