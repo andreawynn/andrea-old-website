@@ -5,15 +5,13 @@
 **Please note that I cannot share the source code or files for this course project due to academic integrity regulations at Rose-Hulman.**
 
 ### Project Description
-The Computer Processor project is a simple yet fully functional "miniscule instruction set" computer processor that can execute programs stored in an external memory unit. This processor was built from scratch using an accumulator architecture and a fully customized assembly language. This assembly language features 17 unique 16-bit instructions and support for procedures, calls, loops, and other essential functionality. 
+The Essay Grader NLP project is a program developed and tested in Java that uses the Stanford NLP kit to assess whether a document represents a summary of a larger document and assign that document a grade based on how good of a summary it is. The goal of the assignmend was to study and evaluate NLP and its usefulness in the common task of text summarization, while also learning about important concepts from Artificial Intelligence and NLP such as parsing and information extraction. The project submission was also accompanied by a report documenting the team's experimentation and iterative improvement process in order to create a successful grading program. 
 
-The project was modeled, designed, tested, debugged, and assessed based on performance benchmarks, all by the project team members. The processor was tested for efficiency and functionality by running a benchmark program written in the processor's assembly language to compute relatively prime values using Euclid's algorithm. The processor comes with full, highly detailed documentation that includes specifications for all instructions, hardware, and testing procedures. 
-
-Our team chose to add the additional functionality for this project to be runnable on a Field Programmable Gate Array (FPGA) microchip. At the conclusion of the project, the team also gave a live presentation and demonstration to the class. 
-
-Our team received a high A on this project for our well-designed processor, strong teamwork, and well-organized documentation. 
+Our team received an A on this project for using a combination of entities, parts of speech, and parse trees to reliably produce scores above 75% for admissible summaries and low scores otherwise. 
 
 ### My Contribution
+TODO edit this section
+
 I contributed to nearly all parts of this project, while also splitting work fairly with my 3 teammates. 
 
 My team and I worked together to design our hardware architecture as well as the instruction set that accompanied it. We iteratively improved and corrected our design as we stepped through the execution of single instructions all the way to execution of complex programs such as the Euclid's Algorithm benchmark program written in our own assembly language. 
@@ -32,6 +30,7 @@ During the final integration stage, when all three intermediate stages were put 
 In addition to my significant technical contributions, I was also the most significant contributor to the project documentation, writing over half of it independently and editing it all for organization, consistency, and grammar before the final submission. 
 
 ### Technical Architecture and Tools Used
+TODO edit this section
 *Programming Languages* <br>
 Verilog & Xilinx - The hardware components of our project were implemented in these languages, per project requirements. 
 
