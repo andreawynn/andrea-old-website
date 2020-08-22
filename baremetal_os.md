@@ -2,30 +2,21 @@
 ## Course: CSSE332 - Operating Systems
 
 ### Project Description
-The Bare-Metal Operating System project is a simple operating system written in 16-bit ANSI C with support for printing, reading and writing files. It also features a command shell and a scheduling algorithm for parallel processing. 
+The Bare-Metal Operating System project is a simple operating system written in 16-bit ANSI C with support for printing, reading and writing using files. Most operations are performed using interrupts. The file system was implemented from scratch, as were basic functions such as printing It also features a command shell and a scheduling algorithm for parallel processing. For this project, I worked with one partner to implement the operating system to meet various requirements for each milestone. 
 
 ### My Contribution
-
-I implemented many of the features of the product, including the grocery bag selection page and time & date selection pages for customers, and worked with team members to create and implement technical specifications for the project overall. I helped facilitate meetings for the Pro team, including Agile-style planning sessions. I also wrote and presented all the technical portions of the final presentation for the team's SOS challenge submission.
-<br><br>
-Moving forward, I will continue to work with the team on building the app and preparing it for deployment to assist with food banks' operations. Our team is continuing to iteratively improve the app as well based on feedback from user testing, both by food banks and by food bank customers.
+I worked on the implementation for all stages of this project along with my partner. I wrote the functions responsible for printing strings, reading and writing using files, and taking and executing commands from the command line, along with some intermediate stages which were used to build up to these functions. I also pair programmed with my partner for the other portions of the project. I also debugged the code after the functions were written, primarily using the print function I implemented in the first milestone of the project due to the lack of a more sophisticated debugging tool for such a low level language. 
 
 ### Technical Architecture and Tools Used
-
-The Red Riding Hood team used the Model-View-ViewModel (MVVM) architecture, adapted for Android, to structure the project. This architecture provides a framework for building robust, scalable, and production quality apps. More details about this architecture may be found <a href="https://developer.android.com/jetpack/guide">here</a>.
+*Programming Languages* <br>
+16-bit ANSI C - This was the language in which the BareMetal Operating System project was implemented, per project requirements. 
 
 *Version Control* <br>
-GitHub - The team chose to use GitHub for version control in collaboration with multiple developers. The GitHub repository with the source code for the project can be found <a href="https://github.com/sodonova/CommunityNonprofit10">here</a>.
+GitHub - I used GitHub to collaborate with my partner for this project and ensure that our work was up to date while working in parallel. 
 
-*Editing Tools* <br>
-Android Studio - The team chose to use Android Studio because it is designed for building Android apps and has an intuitive, easy-to-use interface. 
+*Editing Tools & Environments* <br>
+Sublime - I chose to use the Sublime text editor to edit the C files and view assembly language programs for debugging. <br>
+Oracle VM VirtualBox (Linux) - All of the code for this project was written in a Linux environment, on a virtual machine provided by Oracle VirtualBox. 
 
-*Programming Languages* <br>
-Java - The developers all had prior experience with this language, so it was a logical decision to use Java for the app. Android Studio also provides additional documentation to help developers create apps. <br>
-XML - This language was used to build the front-end user interface for the app.
-
-*Back-end Database* <br>
-Firebase - The team chose Firebase Firestore for the backend database because it integrated easily into Android Studio and it handles data well for the purposes of the app. Firestore is a NOSQL database, a non-relational database that supports high volume usage and easy scalability.
-
-*Task Management* <br>
-Trello - The team used Trello to distribute tasks and keep track of progress throughout the project. The Trello board was set up and used in an Agile-style fashion throughout the 5-week challenge, and the team continues to use this tool to keep track of tasks, future goals, and bugs that need to be fixed.
+*Other Technologies Used* <br>
+QEMU - A generic and open source machine emulator and virtualizer supporting x86.
