@@ -1,6 +1,8 @@
 ## Bare-Metal OS Project
 ## Course: CSSE332 - Operating Systems
 
+**Please note that I cannot share the source code or files for this course project due to academic integrity regulations at Rose-Hulman.**
+
 ### Project Description
 The Bare-Metal Operating System project is a simple operating system written in 16-bit ANSI C with support for printing, reading and writing using files. Most operations are performed using interrupts. The file system was implemented from scratch, as were basic functions such as printing It also features a command shell and a scheduling algorithm for parallel processing. For this project, I worked with one partner to implement the operating system to meet various requirements for each milestone. 
 
@@ -12,7 +14,7 @@ I worked on the implementation for all stages of this project along with my part
 16-bit ANSI C - This was the language in which the BareMetal Operating System project was implemented, per project requirements. 
 
 *Version Control* <br>
-GitHub - I used GitHub to collaborate with my partner for this project and ensure that our work was up to date while working in parallel. 
+GitHub - I used GitHub to collaborate with my partner for this project and ensure that our work was up to date while working in parallel. <br>
 
 *Editing Tools & Environments* <br>
 Sublime - I chose to use the Sublime text editor to edit the C files and view assembly language programs for debugging. <br>
