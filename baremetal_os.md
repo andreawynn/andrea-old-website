@@ -1,5 +1,6 @@
 ## Bare-Metal OS Project
 ## Course: CSSE332 - Operating Systems
+*Completed in Winter 2019-20*
 
 **Please note that I cannot share the source code or files for this course project due to academic integrity regulations at Rose-Hulman.**
 
