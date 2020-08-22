@@ -5,23 +5,36 @@
 **Please note that I cannot share the source code or files for this course project due to academic integrity regulations at Rose-Hulman.**
 
 ### Project Description
-The Computer Processor project is a simple yet fully functional computer processor, built from scratch using an accumulator architecture and a fully customized assembly language. This assembly language features 17 unique 16-bit instructions and support for procedures, calls, loops, and other essential functionality for any processor. The processor was tested for efficiency and functionality by running a benchmark program written in the processor's assembly language to compute relatively prime values using Euclid's algorithm. The processor comes with full, highly detailed documentation that includes specifications for all instructions, hardware, and testing procedures. 
+The Computer Processor project is a simple yet fully functional "miniscule instruction set" computer processor that can execute programs stored in an external memory unit. This processor was built from scratch using an accumulator architecture and a fully customized assembly language. This assembly language features 17 unique 16-bit instructions and support for procedures, calls, loops, and other essential functionality. 
+
+The project was modeled, designed, tested, debugged, and assessed based on performance benchmarks, all by the project team members. The processor was tested for efficiency and functionality by running a benchmark program written in the processor's assembly language to compute relatively prime values using Euclid's algorithm. The processor comes with full, highly detailed documentation that includes specifications for all instructions, hardware, and testing procedures. 
+
+Our team chose to add the additional functionality for this project to be runnable on a Field Programmable Gate Array (FPGA) microchip. At the conclusion of the project, the team also gave a live presentation and demonstration to the class. 
+
+Our team received a high A on this project for our well-designed processor, strong teamwork, and well-organized documentation. 
 
 ### My Contribution
-TODO edit this
-I worked on the implementation for all stages of this project along with my partner. I wrote the functions responsible for printing strings, reading and writing using files, and taking and executing commands from the command line, along with some intermediate stages which were used to build up to these functions. I also pair programmed with my partner for the other portions of the project. I also debugged the code after the functions were written, primarily using the print function I implemented in the first milestone of the project due to the lack of a more sophisticated debugging tool for such a low level language. 
+I contributed to nearly all parts of this project, while also splitting work fairly with my 3 teammates. 
+
+My team and I worked together to design our hardware architecture as well as the instruction set that accompanied it. We iteratively improved and corrected our design as we stepped through the execution of single instructions all the way to execution of complex programs such as the Euclid's Algorithm benchmark program written in our own assembly language. 
+
+I implemented, debugged, and tested the following individual components independently (using Verilog and Xilinx):
+Control Unit
+Memory Unit
+Resettable Register
+Multiple-Input Multiplexors
+Sign & Zero Extenders
+
+I also implemented, debugged, and tested the most complex of the three intermediate integration stages specified by our group during the design process (which handled all memory operations, as well as the system output signal), and helped to debug the two other stages (including the program counter updating stage and the arithmetic stage). 
+
+During the final integration stage, when all three intermediate stages were put together to create the full processor system, our team worked together to test and debug the full project, taking turns at the keyboard. We iterated this process until we had a fully functional processor that could correctly run the benchmark Euclid's Algorithm program. 
+
+In addition to my significant technical contributions, I was also the most significant contributor to the project documentation, writing over half of it independently and editing it all for organization, consistency, and grammar before the final submission. 
 
 ### Technical Architecture and Tools Used
-TODO edit this
 *Programming Languages* <br>
-16-bit ANSI C - This was the language in which the BareMetal Operating System project was implemented, per project requirements. 
+Verilog & Xilinx - The hardware components of our project were implemented in these languages, per project requirements. 
 
 *Version Control* <br>
-GitHub - I used GitHub to collaborate with my partner for this project and ensure that our work was up to date while working in parallel. <br>
+GitHub - I used GitHub to collaborate with my team for this project and ensure that our work was up to date while working in parallel.
 
-*Editing Tools & Environments* <br>
-Sublime - I chose to use the Sublime text editor to edit the C files and view assembly language programs for debugging. <br>
-Oracle VM VirtualBox (Linux) - All of the code for this project was written in a Linux environment, on a virtual machine provided by Oracle VirtualBox. 
-
-*Other Technologies Used* <br>
-QEMU - A generic and open source machine emulator and virtualizer supporting x86.
