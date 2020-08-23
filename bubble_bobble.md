@@ -5,23 +5,25 @@
 **Please note that I cannot share the source code or files for this course project due to academic integrity regulations at Rose-Hulman.**
 
 ### Project Description
-The A* Map Navigation project focuses on the Whistler-Blackcomb Ski Resort, a large skiing area with slopes of all difficulty levels and ski lifts scattered around the two mountains. For the project, this resort was represented as a graph (laid over a map of the actual resort in the user interface) where each "node" represented a notable location (for example, a first aid station, bottom/top of a ski lift, intersection between two or more ski slopes, etc). 
+Bubble Bobble is a classic 1984 platform arcade game, remade in this fun and interactive Java project. For this project, the player controls a character who can move about through various levels with platforms to jump on and who can shoot bubbles to trap their enemies. The player may move along platforms, fall to lower ones, and jump to higher ones and over gaps between platforms. Each level has a single screen, and if there is a gap on the bottom edge, the player may jump through the gap and will reappear at the top of the screen. 
 
-Through the intuitive graphical user interface implemented with Java Swing graphics, users may select a start and end node from the graph and search for the shortest, or longest, path between those nodes. The shortest path would often allow for the fastest travel between two points, while the longest path would often allow for more time on the slopes before reaching the destination. The user may also select from additional filtering and searching options, including finding the nearest first aid station, allowing or disallowing ski lifts on the path, and setting the maximum difficulty level of slopes on the path. 
+Each level has a fixed number of enemies which the player must defeat in order to advance to the next level. The player defeats enemies by blowing bubbles to trap them, then bursting the bubbles by colliding with them. Each enemy defeated drops a fruit that can be collected for extra points. Enemies also have a small chance to drop a special magical item that gives the player special abilities for a short period of time. 
 
-The searching functionality is implemented through A* and breadth-first search algorithms (A* for finding the shortest/longest path and breadth-first search for finding the nearest first aid station). 
+The player loses a life every time they touch any non-bubbled enemies or any bullets that the enemies shoot. The enemies wander about the screen randomly until the player comes within a certain pixel distance of them, at which point they actively chase the player until the player gets out of range. 
 
-My team received a high A on this project for meeting and exceeding all milestone deadlines and requirements, and even earned some extra credit for implementing additional features such as filters for difficulty and ski lifts; 3 different searching options; and an intuitive and well-designed user interface, among others. 
+My team received a high A on this project for meeting and exceeding all milestone deadlines and requirements. We also implemented additional features such as a scoreboard and a final boss level which, although not worth points, enhanced gameplay and helped us gain additional experience with programming. 
+
+Please note that this project is slightly modified from the game's original version in order to fit the scope of a 3-week course project. 
 
 ### My Contribution
-I worked primarily on implementing the algorithms for this project. In particular, I implemented and tested the A* algorithm and pair programmed with my teammate for the breadth-first search algorithm, and I also implemented the maximum difficulty level filter. I also made significant contributions to the design of the system and the documentation & final report, and I ensured that our project was as faithfully accurate as possible to the real Whistler-Blackcomb ski resort. 
+For this game, I implemented most of the functionality for the game itself, while my partner implemented more of the user interface and graphics. For instance, I implemented collision checking, bullet and bubble shooting, special abilities with timers, motion (left/right/jump) for the player, and motion for the enemies, among other features. I also wrote the majority of the documentation and final report and debugged the project after all components were put together. 
 
 ### Technical Architecture and Tools Used
 *Programming Languages* <br>
-Java - This project was implemented in Java, per course requirements, as the course itself was taught in Java. 
+Java - This project was implemented in Java, per course requirements, as the course itself was taught in Java. Java Swing was used for the graphical user interface. 
 
 *Version Control* <br>
-GitHub - I used GitHub to collaborate with my three other teammates for this project and ensure that our work was up to date.
+GitHub - I used GitHub to collaborate with my teammate for this project and ensure that our work was up to date.
 
 *Editing Tools & Environments* <br>
 Eclipse - I used the Eclipse editor for writing Java code for this project.
