@@ -1,5 +1,7 @@
 ## Backpat Volunteer Tutoring
 
+<img src="images/backpat_logo.png?raw=true" height="200" width="200"/>
+
 ### Overview
 When COVID-19 hit, students across the country and the world saw their education heavily impacted by the transition to a fully remote learning environment. This environment was especially challenging for students in grades K-12. In response to this need, I founded Backpat Tutoring, a 100% volunteer-based organization that provides free tutoring services to students in need by pairing up volunteer tutors across the country with students who need academic assistance. <br><br>
 
