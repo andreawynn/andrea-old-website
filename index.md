@@ -5,11 +5,7 @@
 ### Independent Projects
 
 [Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/red_riding_hood) <br>
-<img src="images/red_riding_hood_logo.jpg?raw=true" height="200" width="200"/>
-
----
 [Backpat Volunteer Tutoring](/backpat) <br>
-<img src="images/backpat_logo.png?raw=true" height="200" width="200"/>
 
 ---
 
