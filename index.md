@@ -18,6 +18,7 @@
 [Scheme Programming Language Interpreter Project](/scheme_interpreter) <br>
 [Choose-Your-Own-Adventure Database Project](/cyoa_database) <br>
 [A* Map Navigation Project](/map_nav) <br>
+[Bubble Bobble Arcade Game Project](/bubble_bobble) <br>
 
 ### Certifications and Awards
 
