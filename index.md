@@ -19,7 +19,8 @@
 *This section is still being constructed, please check back later.* <br>
 [Bare-Metal Operating System Project](/baremetal_os) <br>
 [Computer Processor Project](/computer_processor) <br>
-
+[Essay Grader Natural Language Processing Project](/essay_grader) <br>
+[Scheme Programming Language Interpreter Project](/scheme_interpreter) <br>
 
 ### Certifications and Awards
 
