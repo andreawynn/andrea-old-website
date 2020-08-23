@@ -22,13 +22,13 @@ On the website, I created the interface for viewing all books in a user's librar
 
 ### Technical Architecture and Tools Used
 *Programming Languages* <br>
-SQL - The back-end database for this project was implemented entirely in SQL, per project requirements. 
-JavaScript - Our team chose to use JavaScript for the website. 
+SQL - The back-end database for this project was implemented entirely in SQL, per project requirements. <br> 
+JavaScript - Our team chose to use JavaScript for the website. <br>
 HTML - Our team chose to use HTML to design the webpage interface for this project. 
 
 *Version Control* <br>
 GitHub - I used GitHub to collaborate with my two other teammates for this project and ensure that our work was up to date.
 
 *Editing Tools & Environments* <br>
-Microsoft SQL Server Management Studio - I used SQL Management Studio for coding in SQL and managing the back-end database. 
+Microsoft SQL Server Management Studio - I used SQL Management Studio for coding in SQL and managing the back-end database. <br>
 Notepad++ - I chose the Notepad++ editor for the Javascript/HTML portions of this project. 
