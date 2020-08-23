@@ -10,29 +10,17 @@ The Essay Grader NLP project is a program developed and tested in Java that uses
 Our team received an A on this project for using a combination of entities, parts of speech, and parse trees to reliably produce scores above 75% for admissible summaries and low scores otherwise. 
 
 ### My Contribution
-TODO edit this section
-
-I contributed to nearly all parts of this project, while also splitting work fairly with my 3 teammates. 
-
-My team and I worked together to design our hardware architecture as well as the instruction set that accompanied it. We iteratively improved and corrected our design as we stepped through the execution of single instructions all the way to execution of complex programs such as the Euclid's Algorithm benchmark program written in our own assembly language. 
-
-I implemented, debugged, and tested the following individual components independently (using Verilog and Xilinx):
-Control Unit
-Memory Unit
-Resettable Register
-Multiple-Input Multiplexors
-Sign & Zero Extenders
-
-I also implemented, debugged, and tested the most complex of the three intermediate integration stages specified by our group during the design process (which handled all memory operations, as well as the system output signal), and helped to debug the two other stages (including the program counter updating stage and the arithmetic stage). 
-
-During the final integration stage, when all three intermediate stages were put together to create the full processor system, our team worked together to test and debug the full project, taking turns at the keyboard. We iterated this process until we had a fully functional processor that could correctly run the benchmark Euclid's Algorithm program. 
-
-In addition to my significant technical contributions, I was also the most significant contributor to the project documentation, writing over half of it independently and editing it all for organization, consistency, and grammar before the final submission. 
+I came up with and implemented many of the ideas tested during the experimentation process. I used my findings from these experiments, along with my knowledge of sentence and essay structure both from previous English courses and from research for this project, to iteratively improve my model for generating accurate and reliable scores. Additionally, I made significant contributions to the written report. 
 
 ### Technical Architecture and Tools Used
-TODO edit this section
 *Programming Languages* <br>
-Verilog & Xilinx - The hardware components of our project were implemented in these languages, per project requirements. 
+Java - This project was implemented fully in Java, per project requirements. 
 
 *Version Control* <br>
-GitHub - I used GitHub to collaborate with my team for this project and ensure that our work was up to date while working in parallel.
+GitHub - I used GitHub to collaborate with my teammate for this project and ensure that our work was up to date while working in parallel.
+
+*Editing Tools & Environments* <br>
+Eclipse - I used the Eclipse editor for writing Java code for this project. 
+
+*Other Technologies Used* <br>
+Stanford NLP Kit - I used the Stanford NLP kit to produce parse trees and extract some other raw information that my program used to grade summaries. 
