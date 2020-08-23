@@ -9,23 +9,17 @@ The Scheme Programming Language Interpreter project takes any string representin
 
 This interpreter was first implemented using recursion, but was later converted entirely to Continuation Passing Style (CPS). It also provides support for variable scoping, value assignment, and variable value accesses by using environments and closures. 
 
-Our team received a high A on this project for meeting all milestone deadlines and requirements, and even earned extra credit for consistently turning in milestones early. This was an especially impressive accomplishment given that CSSE304 is considered the hardest course in the Rose-Hulman CSSE curriculum. 
+Our team received a high A on this project for meeting all milestone deadlines and requirements, and even earned extra credit for consistently turning in milestones early. This was an especially impressive accomplishment given that CSSE304 is often considered the hardest course in the Rose-Hulman CSSE curriculum. 
 
 ### My Contribution
-TODO edit this
-
-I came up with and implemented many of the ideas tested during the experimentation process. I used my findings from these experiments, along with my knowledge of sentence and essay structure both from previous English courses and from research for this project, to iteratively improve my model for generating accurate and reliable scores. Additionally, I made significant contributions to the written report. 
+I contributed to all milestones of this project and to all the different parts of the interpreter, as listed in the Project Description above. For the majority of this project, I pair programmed with my partner and took turns coding. However, I particularly took initiative on the CPS conversion stage, as my partner had trouble understanding the concepts. When converting the interpreter to CPS style, I both helped my partner understand the concept of CPS through explanations and practice with some carefully chosen examples and drove most of the coding portion of this stage. 
 
 ### Technical Architecture and Tools Used
-TODO edit this
 *Programming Languages* <br>
-Java - This project was implemented fully in Java, per project requirements. 
+Scheme - This project was implemented fully in the functional programming language Scheme, per project requirements. 
 
 *Version Control* <br>
-GitHub - I used GitHub to collaborate with my teammate for this project and ensure that our work was up to date while working in parallel.
+GitHub - I used GitHub to collaborate with my teammate for this project and ensure that our work was up to date.
 
 *Editing Tools & Environments* <br>
-Eclipse - I used the Eclipse editor for writing Java code for this project. 
-
-*Other Technologies Used* <br>
-Stanford NLP Kit - I used the Stanford NLP kit to produce parse trees and extract some other raw information that my program used to grade summaries. 
+Visual Studio Code - I chose the Visual Studio Code editor for this project, since it had a helpful extension for Scheme that color-coded brackets and parentheses for easier matching. 
