@@ -13,7 +13,7 @@
 *Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
 [Bare-Metal Operating System Project](/project-pages/baremetal_os) <br>
-[Computer Processor Project](/computer_processor) <br>
+[Computer Processor Project](/project-pages/computer_processor) <br>
 [Essay Grader Natural Language Processing Project](/project-pages/essay_grader) <br>
 [Scheme Programming Language Interpreter Project](/project-pages/scheme_interpreter) <br>
 [Choose-Your-Own-Adventure Database Project](/project-pages/cyoa_database) <br>
