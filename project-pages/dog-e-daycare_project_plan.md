@@ -1,4 +1,4 @@
-## Dog-eDaycare Large-Scale Software Project Plan
+## Dog-eDaycare Software Project Plan
 ## Course: CSSE372 - Software Project Management
 *Completed in Fall 2020-21*
 
