@@ -1,34 +1,46 @@
-## Choose Your Own Adventure (CYOA) Database Project
-## Course: CSSE333 - Database Systems
-*Completed in Spring 2018-19*
+## Automated Dataset Generator for Machine Learning Systems
+## Course: CSSE490 - Software Engineering for Machine Learning
+*Completed in Fall 2020-21*
 
 **Please note that I cannot share the source code or files for this course project due to academic integrity regulations at Rose-Hulman.**
 
+### Motivation for Project
+The motivation for the project comes from the real-world issue of getting good training datasets in the field of machine learning. Typically, unless a specific dataset you need to use for training a ML model happens to be publicly available, you will need to spend a lot of human time, energy, and potentially other resources to create, sort, and/or label your own dataset. 
+
+But... What if we had access to an enormous dataset containing pretty much everything you could think of, that was already human-labeled and is being updated in real-time?
+
+The answer: We do! Many posts (including both text and images) on social media sites such as Twitter, Instagram, and Facebook come pre-labeled with user-defined hashtags, which are essentially a way for users to indicate what their particular post is related to. These hashtags could then be used to create a labeled dataset to help train ML models. This is the idea upon which the dataset generator project was built.  
+
 ### Project Description
-The Choose Your Own Adventure Database Project features a simple website interface coupled with a SQL database back-end that provides a scalable digital solution for Choose-Your-Own-Adventure style novels. It features secure user registration and login with password hashing and salting, as well as other security features such as parameter validation. 
+The dataset generator project features an innovative filtering algorithm that takes in data in real-time from Twitter, selects posts that are relevant to a keyword entered by the user, and writes those posts (along with convenient labels for training ML systems) out to a file, which can then be used as a dataset for training and validating Machine Learning systems. 
 
-When a user creates an account and logs in, they may view a list of CYOA-style novels that are available in the database. Each of these novels tracks the user's progress by saving the user's previously visited pages and current page, and also allows the user to create their own bookmarks or write notes associated with certain pages (all of which are stored in the database and thus preserved between sessions). The user cannot view pages they have not seen yet, to prevent potential spoilers for later in the story; if a user tries to access a new page indirectly by modifying the page number in the website address bar, they are redirected to an error page and returned to the main menu. 
+The generator works by first asking the user for a set of "starting" hashtags, or labels, that describe the subject they would like to capture within the dataset. For example, if the user enters the word "dog", the system will search for the specified number of tweets with the hashtag "dog", and will select the relevant hashtags from each post to serve as the labels for each dataset entry. 
 
-The system also provides support for authors to write or upload existing books to the database, which then become accessible to other users. Any user may create a new book, which can be made accessible to all users as readers, but only users authorized by the book's creator may edit the book. The webpage interface provides full support for writing books, including creating the book, writing individual pages, linking pages, and deleting pages. The project also features a Python script for importing data from an unsorted Excel spreadsheet into the SQL database server according to the relational schema for the database, which is another way to add books to the database from the back-end. 
+The system uses an innovative hashtag filtering algorithm, developed by me and my partner during this project, which considers factors such as how often certain hashtag pairs appear together and whether a user marks hashtags as "irrelevant" to determine whether a specific hashtag should be included as a label for a certain post. In this way, each dataset entry only retains the relevant labels, and the others are discarded. 
 
-Our team received a high A on this project for meeting and exceeding all milestone deadlines and requirements, and even earned some extra credit for implementing additional features such as user registration and data importing. 
+My team received a high A on this project for meeting and exceeding all milestone deadlines and requirements, and even earned some extra credit for the innovative idea and algorithm upon which this system was based. 
+
+### Project Demo
+To see a live demo of the project, please watch the video here: https://youtu.be/REwsMd0hNe8
 
 ### My Contribution
-I worked primarily on the SQL server back-end for this project, but I also wrote some of the webpages and helped implement a significant portion of the connectivity between the website and SQL server. 
+I worked on nearly all aspects of this project, along with my partner. 
 
-For the SQL back-end, I designed the relational schema and implemented the majority of the stored procedures (including those for hashing and salting user passwords before storing them in the database; writing, editing, and deleting notes and pages; accessing books, notes, and pages; and creating bookmarks, among many others). For all my stored procedures, and some of my teammates' as well, I also implemented parameter validation and user permission checking. 
+Near the beginning of the project, and throughout the project as well, I worked with my partner to develop and test the system with representative users. I also worked with my partner to develop the hashtag filtering algorithm, as well as the structure of the project itself. 
 
-On the website, I created the interface for viewing all books in a user's library; viewing pages; writing notes; adding bookmarks; and creating new books. I also worked with one of my teammates on getting user registration and login set up, and I worked with my team to help ensure that the website front-end was connected properly and was appropriately interacting with the SQL server back-end. 
+I wrote the hashtag filtering algorithm, including additional functionality which allows the specific state of the hashtag filter's "learning" so that it can be exactly replicated on different machines. 
+
+I also wrote a significant portion of the user interface using Tkinter, including the basic interface for all pages, the connectivity with the Twitter data fetching and hashtag filtering code, and handling the collection and implementation of user feedback in the hashtag filtering algorithm. 
 
 ### Technical Architecture and Tools Used
 *Programming Languages* <br>
-SQL - The back-end database for this project was implemented entirely in SQL, per project requirements. <br> 
-JavaScript - Our team chose to use JavaScript for the website. <br>
-HTML - Our team chose to use HTML to design the webpage interface for this project. 
+Python - This entire project was coded in Python. The graphical user interface was implemented using Tkinter, a package developed for Python. <br>
+
+*APIs* <br>
+Twitter API - My team used the Twitter API to fetch data directly from Twitter, as well as to fetch hashtags for each post. 
 
 *Version Control* <br>
-GitHub - I used GitHub to collaborate with my two other teammates for this project and ensure that our work was up to date.
+GitHub - I used GitHub to collaborate with my teammate for this project and ensure that our work was up to date.
 
 *Editing Tools & Environments* <br>
-Microsoft SQL Server Management Studio - I used SQL Management Studio for coding in SQL and managing the back-end database. <br>
-Notepad++ - I chose the Notepad++ editor for the Javascript/HTML portions of this project. 
+JetBrains PyCharm - I used PyCharm for coding in Python throughout this project. 
