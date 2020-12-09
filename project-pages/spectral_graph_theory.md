@@ -1,16 +1,19 @@
 ## Spectral Touching Points in 2-Dimensional Materials
-### Independent Research in Spectral Graph Theory (Conducted at Rose-Hulman)
-*Advisor: Dr. Tracy Weyand*
+### Independent Research Project (Advisor: Dr. Tracy Weyand)
 *Ongoing; Started August 2020*
 
 **This project is still in progress. This page will be regularly updated.**
 
-**I will be presenting this project at the upcoming 23rd Annual Nebraska Conference for Undergraduate Women in Mathematics on January 22-24, 2021. Please see this link for more information: ** <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">Conference Information</a><br>
+I will be presenting this project at the upcoming <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a>, which will be held virtually on January 22-24, 2021. 
 
+### Motivation for Research
+In recent years, graphene has gained significant popularity as a building material and energy storage medium with a wide variety of applications. One of graphene’s most unique properties is its conductivity, which is enhanced by mass-less fermions that enable loss-less electron transfer across a graphene sheet. 
 
+Previous researchers (Novoselov, 2011) have conjectured a potential relation between a special type of spectral touching point, Dirac conical points, and the unique properties of graphene, although this has yet to be formally proven. Further research from T. Weyand (2014) and R. Martin (2017) found that variations of graphene also have these touching points. I expand upon this idea by searching for other materials possessing Dirac conical points, which may indicate the presence of properties similar to those of graphene. 
 
-### Motivation for Project
-*maybe put my abstract here?*
+I verify the existence of Dirac conical points by modeling a material as a 2 dimensional infinite periodic graph, the spectrum of which can be found using Floquet-Bloch theory. I find the fundamental domain of this graph, find its magnetic flux Schrodinger operator, and take the union over all possible values of magnetic flux. I then calculate the eigenvalues and eigenvectors at the possible touching points to show that there exist linearly independent eigenvectors for the same eigenvalue. 
+
+Throughout the course of my research, I found examples of these materials and proved the existence of touching points, including Dirac conical points, within them under certain symmetry conditions. During my presentation at the 23rd Annual Nebraska Conference for Undergraduate Women in Mathematics (NCUWM) in January, I will be further describing the results and methods of my research. 
 
 ### Project Description
 *TODO edit this*
@@ -25,17 +28,9 @@ My partner and I received an A on this project for creating a functional process
 I worked on the implementation for all stages of this project along with my partner. I wrote the functions responsible for printing strings, reading and writing using files, and taking and executing commands from the command line, along with some intermediate stages which were used to build up to these functions. I also pair programmed with my partner for the other portions of the project. I also debugged the code after the functions were written, primarily using the print function I implemented in the first milestone of the project due to the lack of a more sophisticated debugging tool for such a low level language. 
 
 ### Relevant Links
+*TODO put stuff here as it comes up - maybe include presentation link, published paper, etc*
 
-### Technical Architecture and Tools Used
-*Programming Languages* <br>
-16-bit ANSI C - This was the language in which the BareMetal Operating System project was implemented, per project requirements. 
-
-*Version Control* <br>
-GitHub - I used GitHub to collaborate with my partner for this project and ensure that our work was up to date while working in parallel. <br>
-
-*Editing Tools & Environments* <br>
-Sublime - I chose to use the Sublime text editor to edit the C files and view assembly language programs for debugging. <br>
-Oracle VM VirtualBox (Linux) - All of the code for this project was written in a Linux environment, on a virtual machine provided by Oracle VirtualBox. 
-
-*Other Technologies Used* <br>
-QEMU - A generic and open source machine emulator and virtualizer supporting x86.
+### Tools and Methods Used
+*Mathematical Analysis Software* <br>
+Matlab - I used Matlab to create plots of the spectra of the magnetic flux Schrodinger operators acting on the fundamental domains of various materials that I studied. These plots were used to detect potential touching points and estimate their location. 
+Maple - I used Maple to more rigorously demonstrate the existence and precise location of touching points before formally proving them by hand. 
