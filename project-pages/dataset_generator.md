@@ -21,7 +21,7 @@ The system uses an innovative hashtag filtering algorithm, developed by me and m
 My team received a high A on this project for meeting and exceeding all milestone deadlines and requirements, and even earned some extra credit for the innovative idea and algorithm upon which this system was based. 
 
 ### Project Demo
-To see a live demo of the project, please watch the video here: https://youtu.be/REwsMd0hNe8
+To see a live demo of the project, please watch the video here: <a href="https://youtu.be/REwsMd0hNe8">Live Project Demo</a> <br>
 
 ### My Contribution
 I worked on nearly all aspects of this project, along with my partner. 
