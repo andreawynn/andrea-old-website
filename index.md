@@ -12,6 +12,7 @@
 ### Course Projects
 *Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
+[Automated Dataset Generator for Machine Learning Systems](/project-pages/dataset_generator) <br>
 [Dog-eDaycare Software Project Plan](/project-pages/dog-e-daycare_project_plan) <br>
 [Assay Management Software Requirements Engineering Project](/project-pages/assay_management_requirements) <br>
 [Bare-Metal Operating System Project](/project-pages/baremetal_os) <br>
