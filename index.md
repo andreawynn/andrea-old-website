@@ -4,6 +4,7 @@
 
 ### Independent Projects
 
+[Research in Spectral Graph Theory](/project-pages/spectral_graph_theory) <br>
 [Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/project-pages/red_riding_hood) <br>
 [Backpat Volunteer Tutoring](/project-pages/backpat) <br>
 
