@@ -25,5 +25,5 @@ I verify the existence of Dirac conical points by modeling a material as a 2 dim
 
 ### Tools and Methods Used
 *Mathematical Analysis Software* <br>
-Matlab - I used Matlab to create plots of the spectra of the magnetic flux Schrodinger operators acting on the fundamental domains of various materials that I studied. These plots were used to detect potential touching points and estimate their location. 
+Matlab - I used Matlab to create plots of the spectra of the magnetic flux Schrodinger operators acting on the fundamental domains of various materials that I studied. These plots were used to detect potential touching points and estimate their location. <br>
 Maple - I used Maple to more rigorously demonstrate the existence of, and determine the precise location of, touching points before formally proving them by hand. 
