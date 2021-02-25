@@ -4,7 +4,7 @@
 
 **This project is still in progress. This page will be regularly updated.**
 
-I presented this research at the upcoming <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> (NCUWM), which was held virtually on January 22-24, 2021. The full recording of my presentation can be found <a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">here</a>, starting at roughly the 16 minute mark. 
+I presented this research at the <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> (NCUWM), which was held virtually on January 22-24, 2021. The full recording of my presentation can be found <a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">here</a>, starting at roughly the 16 minute mark. 
 
 ### Motivation for Research
 In recent years, graphene has gained significant popularity as a building material and energy storage medium with a wide variety of applications. One of graphene’s most unique properties is its conductivity, which is enhanced by mass-less fermions that enable loss-less electron transfer across a graphene sheet. 
