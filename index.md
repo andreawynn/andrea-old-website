@@ -30,7 +30,7 @@
 ---
 
 ### Certifications and Awards
-8x Rose-Hulman Dean's List (All Quarters Attended)
+8x Rose-Hulman Dean's List (All Quarters Attended)<br>
 [TechPointX SOS Challenge 2020 Winning Submission: Red Riding Hood](https://devpost.com/software/red-riding-hood-2i47k3) <br>
 [Kaggle Intermediate Machine Learning Certification](https://www.kaggle.com/learn/certification/andreawynn/intermediate-machine-learning) <br>
 [Kaggle Introductory Machine Learning Certification](https://www.kaggle.com/learn/certification/andreawynn/intro-to-machine-learning) <br>
