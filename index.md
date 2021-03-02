@@ -11,7 +11,7 @@
 ---
 
 ### Course Projects
-*Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
+*Please note that I cannot provide source code for course projects due to academic integrity policies at Rose-Hulman.*
 
 #### Data Science Related Course Projects
 [Automated Dataset Generator for Machine Learning Systems](/project-pages/dataset_generator) <br>
