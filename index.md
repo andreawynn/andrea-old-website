@@ -8,19 +8,22 @@
 [Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/project-pages/red_riding_hood) <br>
 [Backpat Volunteer Tutoring](/project-pages/backpat) <br>
 
----
-
 ### Course Projects
 *Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
+#### Data Science Related
 [Automated Dataset Generator for Machine Learning Systems](/project-pages/dataset_generator) <br>
+[Essay Grader Natural Language Processing Project](/project-pages/essay_grader) <br>
+[Choose-Your-Own-Adventure Database Project](/project-pages/cyoa_database) <br>
+
+---
+
+#### Software Engineering
 [Dog-eDaycare Software Project Plan](/project-pages/dog-e-daycare_project_plan) <br>
 [Assay Management Software Requirements Engineering Project](/project-pages/assay_management_requirements) <br>
 [Bare-Metal Operating System Project](/project-pages/baremetal_os) <br>
 [Computer Processor Project](/project-pages/computer_processor) <br>
-[Essay Grader Natural Language Processing Project](/project-pages/essay_grader) <br>
 [Scheme Programming Language Interpreter Project](/project-pages/scheme_interpreter) <br>
-[Choose-Your-Own-Adventure Database Project](/project-pages/cyoa_database) <br>
 [A* Map Navigation Project](/project-pages/map_nav) <br>
 [Bubble Bobble Arcade Game Project](/project-pages/bubble_bobble) <br>
 
