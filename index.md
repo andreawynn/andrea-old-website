@@ -11,12 +11,11 @@
 ### Course Projects
 *Please note that I cannot provide source code or other files for course projects due to academic integrity policies at Rose-Hulman.*
 
-#### Data Science Related
+#### Data Science
 [Automated Dataset Generator for Machine Learning Systems](/project-pages/dataset_generator) <br>
 [Essay Grader Natural Language Processing Project](/project-pages/essay_grader) <br>
 [Choose-Your-Own-Adventure Database Project](/project-pages/cyoa_database) <br>
-
----
+[A* Map Navigation Project](/project-pages/map_nav) <br>
 
 #### Software Engineering
 [Dog-eDaycare Software Project Plan](/project-pages/dog-e-daycare_project_plan) <br>
@@ -24,16 +23,14 @@
 [Bare-Metal Operating System Project](/project-pages/baremetal_os) <br>
 [Computer Processor Project](/project-pages/computer_processor) <br>
 [Scheme Programming Language Interpreter Project](/project-pages/scheme_interpreter) <br>
-[A* Map Navigation Project](/project-pages/map_nav) <br>
 [Bubble Bobble Arcade Game Project](/project-pages/bubble_bobble) <br>
 
 ### Certifications and Awards
-
+8x Rose-Hulman Dean's List (All Quarters Attended)
 [TechPointX SOS Challenge 2020 Winning Submission: Red Riding Hood](https://devpost.com/software/red-riding-hood-2i47k3) <br>
 [Kaggle Intermediate Machine Learning Certification](https://www.kaggle.com/learn/certification/andreawynn/intermediate-machine-learning) <br>
 [Kaggle Introductory Machine Learning Certification](https://www.kaggle.com/learn/certification/andreawynn/intro-to-machine-learning) <br>
 [Kaggle Python Certification](https://www.kaggle.com/learn/certification/andreawynn/python) <br>
 [HackerRank Java Certification](https://www.hackerrank.com/certificates/8e67b1460247) <br>
-[TutorMe Certified Tutor Profile](https://tutorme.com/tutors/264453/) <br>
 
 
