@@ -20,6 +20,7 @@
 [A* Map Navigation Project](/project-pages/map_nav) <br>
 
 #### Software Engineering Related Course Projects
+[Coffee Management System Architecture](/project-pages/coffee_management) <br>
 [Dog-eDaycare Software Project Plan](/project-pages/dog-e-daycare_project_plan) <br>
 [Assay Management Software Requirements Engineering Project](/project-pages/assay_management_requirements) <br>
 [Bare-Metal Operating System Project](/project-pages/baremetal_os) <br>
