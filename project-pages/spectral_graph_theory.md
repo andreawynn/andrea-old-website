@@ -4,8 +4,6 @@
 
 **This project is still in progress. This page will be regularly updated.**
 
-I presented this research at the <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> (NCUWM), which was held virtually on January 22-24, 2021. The full recording of my presentation can be found <a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">here</a>, starting at roughly the 16 minute mark. 
-
 ### Motivation for Research
 In recent years, graphene has gained significant popularity as a building material and energy storage medium with a wide variety of applications. One of graphene’s most unique properties is its conductivity, which is enhanced by mass-less fermions that enable loss-less electron transfer across a graphene sheet. 
 
@@ -14,9 +12,16 @@ Previous researchers (Novoselov, 2011) have conjectured a potential relation bet
 The goal of my research was to search for other materials possessing Dirac conical points, which may indicate the presence of properties similar to those of graphene. Since graphene is the only material which has been studied in this context before, my goal was to study a wider variety of structures and to set a precedent for further investigation into the relationship between spectral touching points and the physical properties of materials. 
 
 ### Findings
-Some of my most significant findings include finding over 10 different materials with the same mathematical properties as graphene (i.e. Dirac conical touching points for all values of electric potential), as well as investigating a number of new materials such as Quartz, Sodium Chloride, and Transition Metal Oxides which all have fundamentally different atomic structures that have never yet been studied in this context. 
+Some of my most significant findings include finding over 10 different materials with the same mathematical properties as graphene (i.e. Dirac conical touching points for all values of electric potential), as well as investigating a number of new materials such as Quartz, Sodium Chloride, and Transition Metal Oxides which all have fundamentally different atomic structures that have not yet been studied in this field. 
 
-I discovered Dirac conical touching points in quartz for certain values of electric potential, and I also discovered another type of spectral touching point (flat sheet touching point) for Sodium Chloride. Additionally, I discovered a completely new type of spectral touching point that occurs for certain values of electric potential in Transition Metal Oxides, which I named the mesa touching point due to its resemblance to the flat-topped hills for which it was named. 
+I discovered Dirac conical touching points in quartz for certain values of electric potential, and I also discovered another type of spectral touching point (flat sheet touching point) for Sodium Chloride. Additionally, I discovered and proved the existence of a completely new type of spectral touching point that occurs for certain values of electric potential in Transition Metal Oxides, which I named the mesa touching point due to its resemblance to the flat-topped hills for which it was named. 
+
+## Presentations and Awards
+I presented this research at the <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> (NCUWM), which was held virtually on January 22-24, 2021. The full recording of my presentation can be found <a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">here</a>, starting at roughly the 16 minute mark. 
+
+I also presented this research again at the Rose-Hulman Undergraduate Mathematics Conference and the Rose Show, both in 2021. My presentation at the Rose Show won the Departmental Award for best presentation out of all presenters, including all senior theses. 
+
+Additionally, I was awarded the highly selective Henry Turner Eddy Award for Applications of Mathematics for my work on this research project. This is an award given annually by the Rose-Hulman faculty to a student who has demonstrated exceptional potential for conducting research in applied mathematics, in addition to strong performance in coursework and involvement with the mathematics department. 
 
 ### Future Goals
 I am currently investigating the conditions on electric potential for which spectral touching points occur in quartz and transition metal oxides. I intend to publish a paper within this year that further describes my findings. 
