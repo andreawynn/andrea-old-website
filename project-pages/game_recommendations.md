@@ -34,4 +34,11 @@ Apache Kafka Distributed Messaging Framework - Used to communicate reliably betw
 ### Database Schemas
 Following are the data schemas used within the 3 databases: OrientDB, MongoDB and REDIS. 
   
-  
+OrientDB data schema: <br> 
+  <img src="../images/orientdb_model.png?raw=true" height="200" width="200"/> <br>
+MongoDB data schema (users): <br>
+  <img src="../images/mongodb_user_model.png?raw=true" height="200" width="200"/> <br>
+MongoDB data schema (games): <br>
+  <img src="../images/mongodb_game_model.png?raw=true" height="200" width="200"/> <br>
+REDIS data schema: <br>
+  <img src="../images/redis_model.png?raw=true" height="200" width="200"/> 
