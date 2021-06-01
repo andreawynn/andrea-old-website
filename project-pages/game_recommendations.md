@@ -12,13 +12,13 @@ This project utilizes 3 different NoSQL databases - OrientDB (graph database), M
 The full description of scalability and consistency across all 3 databases can be found here: https://docs.google.com/document/d/13s_yY4_DinEIvvSHKSg5dGWJcTODIYX1_CP-nFNyt0Q/edit?usp=sharing
 
 ### My Contribution
-**TODO** edit this section
+For this project, I designed the schema for all three NoSQL databases (database schemas pictured at bottom of page). I optimized the schemas for specific common and important query types that would be performed on each database, such as generating recommendations for a user by taking advantage of OrientDB's graph structure and efficient pattern matching queries and storing larger and more complex data structures such as user or game information in MongoDB. Additionally, I worked to reduce data duplication across databases; for example, when storing information about users and the games they recommended and didn't recommend in OrientDB, users and games are only referred to by their unique ID and do not store any additional information (all other user and game information can be found in MongoDB). 
 
-I worked primarily on the SQL server back-end for this project, but I also wrote some of the webpages and helped implement a significant portion of the connectivity between the website and SQL server. 
+Additionally, I wrote the MongoDB backend connection with NodeJS. Specifically, I implented functions such as retrieving information about specific users and games; getting all games with positive reviews from a user; listing all games and users in the system; pulling information from games and users to display on screen; etc. This code served as the interface between the application and the databases used for the project. 
 
-For the SQL back-end, I designed the relational schema and implemented the majority of the stored procedures (including those for hashing and salting user passwords before storing them in the database; writing, editing, and deleting notes and pages; accessing books, notes, and pages; and creating bookmarks, among many others). For all my stored procedures, and some of my teammates' as well, I also implemented parameter validation and user permission checking. 
+I also handled all data importing from an Excel spreadsheet (containing over 10 GB of data) into the databases, according to the specified schema. I wrote a script in Python, using PyMongo to connect to the MongoDB instance, and another script in Javascript, using OrientJS to connect to the OrientDB instance, to import data from the spreadsheet into those databases. In both scripts, I dealt with handling arbitrarily large files, checking rows for valid CSV formatting and data types, handling missing values, and not inserting duplicate information. 
 
-On the website, I created the interface for viewing all books in a user's library; viewing pages; writing notes; adding bookmarks; and creating new books. I also worked with one of my teammates on getting user registration and login set up, and I worked with my team to help ensure that the website front-end was connected properly and was appropriately interacting with the SQL server back-end. 
+Additionally, I set up the MongoDB instance, including running multiple nodes on different machines and putting them together in shards and clusters. 
 
 ### Technical Architecture and Tools Used
 *Programming Languages and Frameworks* <br>
