@@ -12,7 +12,7 @@ This project utilizes 3 different NoSQL databases - OrientDB (graph database), M
 The full description of scalability and consistency across all 3 databases can be found here: https://docs.google.com/document/d/13s_yY4_DinEIvvSHKSg5dGWJcTODIYX1_CP-nFNyt0Q/edit?usp=sharing
 
 ### My Contribution
-For this project, I designed the schema for all three NoSQL databases (database schemas pictured at bottom of page). I optimized the schemas for specific common and important query types that would be performed on each database, such as generating recommendations for a user by taking advantage of OrientDB's graph structure and efficient pattern matching queries and storing larger and more complex data structures such as user or game information in MongoDB. Additionally, I worked to reduce data duplication across databases; for example, when storing information about users and the games they recommended and didn't recommend in OrientDB, users and games are only referred to by their unique ID and do not store any additional information (all other user and game information can be found in MongoDB). 
+For this project, I designed the schema for all three NoSQL databases (database schemas pictured at bottom of page). I optimized the schemas for specific common and important query types that would be performed on each database, such as generating recommendations for a user by taking advantage of OrientDB's graph structure and efficient pattern matching queries and storing larger and more complex data structures such as detailed review or game information in MongoDB. Additionally, I worked to reduce data duplication across databases; for example, when storing information about users and the games they recommended and didn't recommend in OrientDB, users and games are only referred to by their unique ID and do not store any additional information not needed for the recommendation queries. 
 
 Additionally, I wrote the MongoDB backend connection with NodeJS. Specifically, I implented functions such as retrieving information about specific users and games; getting all games with positive reviews from a user; listing all games and users in the system; pulling information from games and users to display on screen; etc. This code served as the interface between the application and the databases used for the project. 
 
@@ -37,8 +37,8 @@ Following are the data schemas used within the 3 databases: OrientDB, MongoDB an
 OrientDB data schema: <br> 
   <img src="../images/orientdb_model.png?raw=true" height="200" width="200"/> <br>
 MongoDB data schema (users): <br>
-  <img src="../images/mongodb_user_model.png?raw=true" height="200" width="200"/> <br>
+  <img src="../images/mongodb_review_model.png?raw=true" height="200" width="200"/> <br>
 MongoDB data schema (games): <br>
   <img src="../images/mongodb_game_model.png?raw=true" height="200" width="200"/> <br>
 REDIS data schema: <br>
-  <img src="../images/redis_model.png?raw=true" height="200" width="200"/> 
+  <img src="../images/redis_model.PNG?raw=true" height="200" width="200"/> 
