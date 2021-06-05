@@ -2,44 +2,23 @@
 ## Course: MA415/CSSE415 - Machine Learning
 *Completed in Spring 2020-21*
 
-**Please note that I cannot share the source code or files for this course project due to academic integrity regulations at Rose-Hulman.**
+**Please note that I cannot share the source code for this course project due to academic integrity regulations at Rose-Hulman.**
 
 ### Project Description
-**TODO** start editing from here
-The goal of this project was to recommend games to users based on the games they already like by referencing existing Steam game reviews. Users may create and log in to their own accounts to access the recommendation platform, view a game's description and recent reviews of the game, and create new reviews for games. Users can also choose to receive a curated list of game recommendations based on a list of games that they previously enjoyed. 
+The Myers-Briggs Type Indicator (MBTI) is a personality test designed to categorize human personalities along 4 distinct dimensions. This test has been widely used by company HR divisions, marketers & advertisers, teambuilders and leaders, and many others to gauge people’s personality type and resulting interaction style. Therefore, because this personality type classification has so many practical applications, there is great value in accurately predicting the personality type of a team member, a product consumer, or a potential job hire. 
 
-This project utilizes 3 different NoSQL databases - OrientDB (graph database), MongoDB (document-based database), and REDIS (key-value in-memory database). It handles horizontal scalability through sharding, replication, replica sets with primary/secondary nodes, and other strategies discussed in more detail in the document linked below. Additionally, Apache Kafka is used to handle sending requests to all nodes of the databases. Because this is an application designed to be inherently scalable (even our initial dataset of Steam reviews was tens of gigabytes in size), horizontal scalability and maintaining data consistently across multiple nodes was a major concern throughout the project. 
+Social media posts are one common form of information that is readily available and may contain hints as to which personality type a specific person falls under. These posts can then be converted into features for training machine learning models and can be used to train models such as random forest classifiers, K nearest neighbors classifiers, gradient boosting classifiers, and more. In this project, various data preprocessing techniques (TF-IDF, word embeddings, PCA, balancing) and machine learning models are used to turn social media posts from the website Personality Cafe into predictors of the poster's MBTI personality type. 
 
-The full description of scalability and consistency across all 3 databases can be found here: https://docs.google.com/document/d/13s_yY4_DinEIvvSHKSg5dGWJcTODIYX1_CP-nFNyt0Q/edit?usp=sharing
+The full project report, including visualizations, main results, and discussion about relevant literature, can be found here: https://docs.google.com/document/d/1u8Iz6o_5lyCMQ3q4EyRMeesOFM6iRW4vZpbn8MYmI08/edit?usp=sharing
 
 ### My Contribution
-For this project, I designed the schema for all three NoSQL databases (database schemas pictured at bottom of page). I optimized the schemas for specific common and important query types that would be performed on each database, such as generating recommendations for a user by taking advantage of OrientDB's graph structure and efficient pattern matching queries and storing larger and more complex data structures such as detailed review or game information in MongoDB. Additionally, I worked to reduce data duplication across databases; for example, when storing information about users and the games they recommended and didn't recommend in OrientDB, users and games are only referred to by their unique ID and do not store any additional information not needed for the recommendation queries. 
+For this project, I worked on the majority of the data pre-processing stages after the data were converted from raw post text to TF-IDF and word embeddings. Specifically, I performed Principal Component Analysis (PCA) on both sets of extracted features to select only the most relevant ones. I also balanced the dataset, which was heavily skewed due to the uneven distribution of personality types, by randomly selecting a subset of all data rows for each personality type such that each type ended up with the same number of corresponding rows as the least common personality type (which still provided nearly 20,000 rows for each of 16 personality types, due to the size of the dataset). I chose to select a subset instead of bootstrapping the less common types due to the size of the dataset; training time was a significant cost due to the very large size of the dataset and our limited access to computing resources, meaning that we were willing to sacrifice some data in exchange for a large increase in efficiency. 
 
-Additionally, I wrote the MongoDB backend connection with NodeJS. Specifically, I implented functions such as retrieving information about specific users and games; getting all games with positive reviews from a user; listing all games and users in the system; pulling information from games and users to display on screen; etc. This code served as the interface between the application and the databases used for the project. 
+I also trained and evaluated many different machine learning models. Specifically, I trained the logistic regressor, random forest, and gradient boosting trees models. I also optimized for hyper-parameters where applicable; for example, I determined the optimal tree depth and number of trees for the random forest, and the optimal learning rate and number of trees for the gradient boosting trees, by using grid search cross-validation on the training dataset. 
 
-I also handled all data importing from an Excel spreadsheet (containing over 10 GB of data) into the databases, according to the specified schema. I wrote a script in Python, using PyMongo to connect to the MongoDB instance, and another script in Javascript, using OrientJS to connect to the OrientDB instance, to import data from the spreadsheet into those databases. In both scripts, I dealt with handling arbitrarily large files, checking rows for valid CSV formatting and data types, handling missing values, and not inserting duplicate information. 
-
-Additionally, I set up the MongoDB instance, including running multiple nodes on different machines and putting them together in shards and clusters. 
+Finally, I also helped to write a large portion of the final report (linked in the project description), including the introduction, model descriptions, reporting results, and discussion. I also reviewed external papers (cited at the end of the final report) which described recent research in similar areas related to personality type prediction and feature extraction from social media posts. 
 
 ### Technical Architecture and Tools Used
-*Programming Languages and Frameworks* <br>
-NodeJS - The application back end was implemented in NodeJS. Our team chose to use NodeJS because it interfaces well with all three databases used in the project. <br>
-HTML/CSS/Javascript - These were used to implement the front end user interface for the application, and connected to the NodeJS back end to display the user interface for all features described above. <br>
-
-*Databases and Distributed Technologies* <br>
-OrientDB Graph Database - Used for associating a specific reviewer with their rating for a game (recommended vs not recommended). This enables quick access to the rating that a particular user gave for a particular game. <nr>
-MongoDB Document-Based Database - Used to store information about each review and each game. This enables all information about a specific review, as well as all information about a specific game, to be quickly accessed. <br>
-REDIS Key-Value, In-Memory Database - Used to store the user IDs and their corresponding passwords and selected language (if applicable) for a particular session of this application. This allows for very fast access to user data, and any new reviews written by users will be written back to MongoDB once the review has been written. <br>
-Apache Kafka Distributed Messaging Framework - Used to communicate reliably between the application and all nodes of the databases. 
-
-### Database Schemas
-Following are the data schemas used within the 3 databases: OrientDB, MongoDB and REDIS. 
-  
-OrientDB data schema: <br> 
-  <img src="../images/orientdb_model.png?raw=true" height="150" width="auto"/> <br>
-MongoDB data schema (users): <br>
-  <img src="../images/mongodb_review_model.png?raw=true" height="400" width="auto"/> <br>
-MongoDB data schema (games): <br>
-  <img src="../images/mongodb_game_model.png?raw=true" height="200" width="auto"/> <br>
-REDIS data schema: <br>
-  <img src="../images/redis_model.PNG?raw=true" height="700" width="auto"/> 
+*Programming Languages and Tools* <br>
+Python - All code was written using Python in Jupyter Notebooks. Many Python libraries were used for data exploration & preprocessing and machine learning model implementations, including Pandas, Scikit-Learn, and Matplotlib. <br>
+Jupyter Notebooks - All code was written in Python using Jupyter Notebooks. The notebooks were mostly run on remote servers, due to the high demands on computation power required to handle a dataset as large as ours (tens of gigabytes).
