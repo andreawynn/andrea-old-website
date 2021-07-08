@@ -1,44 +1,41 @@
 ## Stock Market Prediction - Independent Data Science Project
+*Note: This project is still undergoing ongoing improvements. All project code and files can be found <a href="https://github.com/andrea-00/stock-market-prediction">here</a>.*
 
 ### Project Description
-COVID has caused an increase in food insecurity around the country. Food banks and pantries have adjusted their operations to accommodate this increased demand. They have done this with fewer volunteers because most of their regular volunteers are high-risk and encouraged to stay home.
-<br><br>
-Red Riding Hood is an app that is designed to streamline the process of food selection and delivery for food pantries. Customers can select specific baskets of food that the pantry has in stock based on their dietary restrictions and select a preferred pick-up time.
-<br><br>
-This project started as a competition submission for the TechPointX SOS Challenge in the summer of 2020. This challenge sought to bring students together to address novel challenges presented by the COVID-19 pandemic. After the conclusion of the challenge, I am continuing to work on this project with my team members in the hopes that this app will benefit food banks both during and after this crisis. 
-<br><br>
-The Red Riding Hood app won the SOS challenge in the Community-Based Nonprofits category (out of 10 teams) with a perfect technical score and the highest overall score of any team in the competition (with 90+ teams competing in 9 different categories). The judges awarded this score for the seamless and intuitive user flow. Additionally, the project was presented to Governor Eric Holcomb of Indiana State, who commended this project for its timely and effective solution to a pressing issue caused by COVID-19. 
-<br><br>
-See more details about this project, as well as the SOS Challenge submission on DevPost, in the Project Links below. 
+The stock market is highly volatile, with billions of dollars made and lost each day through trades. The stock market can be highly lucrative to those who can predict it well; however, predicting the price of a stock is an exceptionally challenging problem. <br>
 
-### Project Links
-<a href="https://youtu.be/pg4wzs5vt6g">View Video Presentation</a> <br>
-<a href="https://devpost.com/software/red-riding-hood-2i47k3">View DevPost Submission</a> <br>
-<a href="https://github.com/sodonova/CommunityNonprofit10">View GitHub Repository</a> <br>
-<a href="https://play.google.com/store/apps/details?id=com.rrhteam.nonprofitapp&hl=en_US">View App on Google Play Store</a> <br>
+In this independent project, I decided to apply my knowledge of machine learning and data science techniques to train models for predicting the prices of a few specific stocks. Notes on the specific techniques I used can be found in the section below. <br>
 
-### My Contribution
+All source code for this project can be found <a href="https://github.com/andrea-00/stock-market-prediction">here</a> on GitHub. 
 
-I implemented many of the features of the product, including the grocery bag selection page and time & date selection pages for customers, and worked with team members to create and implement technical specifications for the project overall. I helped facilitate meetings for the Pro team, including Agile-style planning sessions. I also wrote and presented all the technical portions of the final presentation for the team's SOS challenge submission.
-<br><br>
-Moving forward, I will continue to work with the team on building the app and preparing it for deployment to assist with food banks' operations. Our team is continuing to iteratively improve the app as well based on feedback from user testing, both by food banks and by food bank customers.
-
-### Technical Architecture and Tools Used
-
-The Red Riding Hood team used the Model-View-ViewModel (MVVM) architecture, adapted for Android, to structure the project. This architecture provides a framework for building robust, scalable, and production quality apps. More details about this architecture may be found <a href="https://developer.android.com/jetpack/guide">here</a>.
-
+### Tools and Techniques Used
 *Version Control* <br>
-GitHub - The team chose to use GitHub for version control in collaboration with multiple developers. The GitHub repository with the source code for the project can be found <a href="https://github.com/sodonova/CommunityNonprofit10">here</a>.
+I posted all code for this project <a href="https://github.com/andrea-00/stock-market-prediction">in this GitHub repository</a> with regular commits after every major change. I am the sole contributor for this project. 
 
-*Editing Tools* <br>
-Android Studio - The team chose to use Android Studio because it is designed for building Android apps and has an intuitive, easy-to-use interface. 
+*Programming Languages and Tools* <br>
+Python - I used Python and various Python libraries (listed below) to write all the code for the project. <br>
+Jupyter Notebooks - I used Jupyter Notebooks for all coding throughout this project. All code files are in the .ipynb format (Jupyter Notebooks / Google Colab). <br>
 
-*Programming Languages* <br>
-Java - The developers all had prior experience with this language, so it was a logical decision to use Java for the app. Android Studio also provides additional documentation to help developers create apps. <br>
-XML - This language was used to build the front-end user interface for the app.
+*Libraries Used* <br>
+Pandas & NumPy - I used Pandas and NumPy for storing and manipulating data, as well as for providing data to models for training. <br>
+plotly - I used plotly for data visualization after performing predictions, to visualize the accuracy of my results as compared to the true stock prices. <br>
+sklearn (Scikit-Learn) - I used Scikit-Learn for all the machine learning models and a number of data processing tools that I used throughout the project. <br>
+yfinance (Yahoo Finance) - I used the yfinance package for pulling data on various stocks to use for training and validation data. <br>
+fastai, ta - I used the fastai and ta libraries to process and add some features to the dataset. <br>
 
-*Back-end Database* <br>
-Firebase - The team chose Firebase Firestore for the backend database because it integrated easily into Android Studio and it handles data well for the purposes of the app. Firestore is a NOSQL database, a non-relational database that supports high volume usage and easy scalability.
+*Data Processing Techniques* <br>
+Scaling - Used StandardScaler to scale training data to have a mean of 0 and standard deviation 1. Applied same scaling to both training and validation features.
 
-*Task Management* <br>
-Trello - The team used Trello to distribute tasks and keep track of progress throughout the project. The Trello board was set up and used in an Agile-style fashion throughout the 5-week challenge, and the team continues to use this tool to keep track of tasks, future goals, and bugs that need to be fixed.
+*Machine Learning Models* <br>
+Linear Regression - Used linear regression (from Scikit-Learn) to establish a baseline accuracy against which other models would be compared. R^2 value for predictions 1 day out was approximately 0.9873 for AMZN stock. <br>
+Artificial Neural Network - Trained a neural network (MLPRegressor from Scikit-Learn) using the identity activation function, hidden layer size 100, adaptive learning rate, and 10000 maximum iterations. R^2 value for predictions 10 days out was approximately -58.231 for AMZN stock (this was the highest R^2 of the shifts tested). 
+
+### Ideas for Continued Improvement
+Following is a non-exhaustive running list of potential improvements and new things to try in the project. 
+- Add Lasso or Ridge regularization
+- Add Principal Component Analysis
+- Test predictions on a wider variety of different stocks
+- Test models on post-COVID stocks
+- Implement a floor on model predictions that prevents predictions from going negative
+- Hyper-parameter optimization, using GridSearchCV, RandomSearchCV, or some other method
+- Try additional ML models: decision trees, random forests, gradient boosting, support vector machines (SVM)
