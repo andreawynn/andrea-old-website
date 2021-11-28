@@ -2,8 +2,6 @@
 ### Independent Research Project (Advisor: Dr. Tracy Weyand)
 *Ongoing; Started August 2020*
 
-**This project is still in progress. This page will be regularly updated.**
-
 ### Motivation for Research
 In recent years, graphene has gained significant popularity as a building material and energy storage medium with a wide variety of applications. One of graphene’s most unique properties is its conductivity, which is enhanced by mass-less fermions that enable loss-less electron transfer across a graphene sheet. 
 
@@ -16,17 +14,24 @@ Some of my most significant findings include finding over 10 different materials
 
 I discovered Dirac conical touching points in quartz for certain values of electric potential, and I also discovered another type of spectral touching point (flat sheet touching point) for Sodium Chloride. Additionally, I discovered and proved the existence of a completely new type of spectral touching point that occurs for certain values of electric potential in Transition Metal Oxides, which I named the mesa touching point due to its resemblance to the flat-topped hills for which it was named. 
 
-## Presentations and Awards
+## Publication, Presentations & Awards
+I have written an academic paper on this research which has been accepted for publication in the SIURO journal, published by SIAM (https://www.siam.org/publications/siuro). A full citation will be added here when the paper has been published on the SIURO website. 
+
 I presented this research at the <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> (NCUWM), which was held virtually on January 22-24, 2021. The full recording of my presentation can be found <a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">here</a>, starting at roughly the 16 minute mark. 
 
-I also presented this research again at the Rose-Hulman Undergraduate Mathematics Conference and the Rose Show, both in 2021. My presentation at the Rose Show won the Departmental Award for best presentation out of all presenters, including all senior theses. 
+I also presented this research again at the Rose-Hulman Undergraduate Mathematics Conference and the Rose Show, both in 2021. My presentation at the Rose Show won the Departmental Award for best presentation out of all presenters, including all senior theses in the department. 
 
 Additionally, I was awarded the highly selective Henry Turner Eddy Award for Applications of Mathematics for my work on this research project. This is an award given annually by the Rose-Hulman faculty to a student who has demonstrated exceptional potential for conducting research in applied mathematics, in addition to strong performance in coursework and involvement with the mathematics department. 
 
-### Future Goals
-I am currently investigating the conditions on electric potential for which spectral touching points occur in quartz and transition metal oxides. I intend to publish a paper within this year that further describes my findings. 
+### Future Opportunities for Further Research
+In the future, it would be interesting to continue investigating some additional questions related to this work, including generalizing some of the results found through my work. For example, the following questions may prompt further study in this field:
 
-Further research in this area could investigate the relationship between those materials for which I did find spectral touching points and the materials' physical properties. 
+- For what materials, and for what values of electric potential, are there touching points where $\alpha_1$ and $\alpha_2$ are both nonzero?
+- What aspect of transition metal oxides' infinite periodic graph representation or atomic structure caused the occurrence of mesa touching points?
+- Are there any other materials which have mesa touching points under certain conditions?
+- Under what symmetry conditions on the electric potential values $q_i$ of the fundamental domain do spectral touching points occur for transition metal oxides and quartz?
+
+It would also be interesting to study the physical properties of other materials with spectral touching points and see whether there exists any relationship with physical properties similar to those of graphene. Quartz and muscovite would be especially interesting to study, since those have a distinct physical structure from graphene but still have Dirac conical touching points, at least under certain conditions. It would also be interesting to investigate potential implications of mesa touching points for physical material properties, and to see whether these touching points occur in other materials as well. 
 
 ### Relevant Links
 <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> <br>
