@@ -15,6 +15,7 @@
 *Please note that I cannot provide source code for course projects due to academic integrity policies at Rose-Hulman.*
 
 #### Data Science Related Course Projects
+[Manga Image Processing Deep Learning Project](/project-pages/manga_prediction) <br>
 [Personality Type Prediction Machine Learning Project](/project-pages/personality_prediction) <br>
 [Scalable Game Recommendation System Advanced Databases Project](/project-pages/game_recommendations) <br>
 [Automated Dataset Generator for Machine Learning Systems](/project-pages/dataset_generator) <br>
