@@ -2,7 +2,7 @@
 
 ---
 
-### Independent Projects
+### Independent / Major Projects
 
 [Research in Spectral Graph Theory](/project-pages/spectral_graph_theory) <br>
 [Stock Market Prediction](/project-pages/stock_market_prediction) <br>
