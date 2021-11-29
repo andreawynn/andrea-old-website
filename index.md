@@ -2,9 +2,15 @@
 
 ---
 
-### Independent / Major Projects
+### Research
+[Spectral Graph Theory in Two-Dimensional Materials](/project-pages/spectral_graph_theory) <br>
+[Network Anomaly Detection](/project-pages/senior_project) <br>
+[Using Bayesian Models for Inductive Generalization of Moral Concepts](/project-pages/moral_psyc) <br>
 
-[Research in Spectral Graph Theory](/project-pages/spectral_graph_theory) <br>
+---
+
+### Independent Projects
+
 [Stock Market Prediction](/project-pages/stock_market_prediction) <br>
 [Red Riding Hood App (TechPointX SOS Challenge Winning Submission)](/project-pages/red_riding_hood) <br>
 [Backpat Volunteer Tutoring](/project-pages/backpat) <br>
