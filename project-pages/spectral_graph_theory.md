@@ -1,6 +1,6 @@
 ## Spectral Touching Points in 2-Dimensional Materials
 ### Independent Research Project (Advisor: Dr. Tracy Weyand)
-*Ongoing; Started August 2020*
+*August 2020 - August 2021*
 
 ### Motivation for Research
 In recent years, graphene has gained significant popularity as a building material and energy storage medium with a wide variety of applications. One of graphene’s most unique properties is its conductivity, which is enhanced by mass-less fermions that enable loss-less electron transfer across a graphene sheet. 
@@ -12,14 +12,16 @@ The goal of my research was to search for other materials possessing Dirac conic
 ### Findings
 Some of my most significant findings include finding over 10 different materials with the same mathematical properties as graphene (i.e. Dirac conical touching points for all values of electric potential), as well as investigating a number of new materials such as Quartz, Sodium Chloride, and Transition Metal Oxides which all have fundamentally different atomic structures that have not yet been studied in this field. 
 
-I discovered Dirac conical touching points in quartz for certain values of electric potential, and I also discovered another type of spectral touching point (flat sheet touching point) for Sodium Chloride. Additionally, I discovered and proved the existence of a completely new type of spectral touching point that occurs for certain values of electric potential in Transition Metal Oxides, which I named the mesa touching point due to its resemblance to the flat-topped hills for which it was named. 
+I discovered Dirac conical touching points in quartz for certain values of electric potential, and I also discovered another type of spectral touching point (flat sheet touching point) in Sodium Chloride. Additionally, I discovered and proved the existence of a completely new type of spectral touching point that occurs for certain values of electric potential in Transition Metal Oxides, which I named the mesa touching point due to its resemblance to the flat-topped hills for which it was named. 
 
-## Publication, Presentations & Awards
-I have written an academic paper on this research which has been accepted for publication in the SIURO journal, published by SIAM (https://www.siam.org/publications/siuro). A full citation will be added here when the paper has been published on the SIURO website. 
+## Publication
+Wynn, Andrea. "Spectral Touching Points in Two-Dimensional Materials." Published in SIAM Undergraduate Research Online. <a href="https://www.siam.org/Portals/0/Publications/SIURO/Vol15/S143889PDF.pdf?ver=2022-02-17-155104-210">Full paper available here.</a> 
 
+
+## Presentations & Awards
 I presented this research at the <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> (NCUWM), which was held virtually on January 22-24, 2021. The full recording of my presentation can be found <a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">here</a>, starting at roughly the 16 minute mark. 
 
-I also presented this research again at the Rose-Hulman Undergraduate Mathematics Conference and the Rose Show, both in 2021. My presentation at the Rose Show won the Departmental Award for best presentation out of all presenters, including all senior theses in the department. 
+I presented this work again at the Rose-Hulman Undergraduate Mathematics Conference and the Rose Show, both in 2021. My presentation at the Rose Show won the Departmental Award for best presentation out of all presenters, including all senior theses in the department. 
 
 Additionally, I was awarded the highly selective Henry Turner Eddy Award for Applications of Mathematics for my work on this research project. This is an award given annually by the Rose-Hulman faculty to a student who has demonstrated exceptional potential for conducting research in applied mathematics, in addition to strong performance in coursework and involvement with the mathematics department. 
 
@@ -36,6 +38,7 @@ It would also be interesting to study the physical properties of other materials
 ### Relevant Links
 <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> <br>
 <a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">Full recording of my NCUWM presentation</a>, starting at roughly the 16 minute mark. 
+<a href="https://www.siam.org/Portals/0/Publications/SIURO/Vol15/S143889PDF.pdf?ver=2022-02-17-155104-210">Full paper available here.</a> 
 
 ### Tools and Methods Used
 *Mathematical Analysis Software* <br>
