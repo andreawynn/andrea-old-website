@@ -42,7 +42,7 @@
 ---
 
 ### Certifications and Awards
-10x Rose-Hulman Dean's List (All Quarters Attended)<br>
+12x Rose-Hulman Dean's List (All Quarters Attended)<br>
 Chevron Scholar 2021-22 with Scholarship Award (In Partnership with the Society of Asian Scientists and Engineers) <br>
 [Henry Turner Eddy Award for Applications of Mathematics](https://www.linkedin.com/feed/update/urn:li:activity:6800106991168696320/) <br>
 [TechPointX SOS Challenge 2020 Winning Submission: Red Riding Hood](https://devpost.com/software/red-riding-hood-2i47k3) <br>
