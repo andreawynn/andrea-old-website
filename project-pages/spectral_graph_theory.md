@@ -3,10 +3,9 @@
 *August 2020 - August 2021*
 
 ### Quick Links
-<a href="https://www.siam.org/Portals/0/Publications/SIURO/Vol15/S143889PDF.pdf?ver=2022-02-17-155104-210">Publication (SIAM Undergraduate Research Online).</a> 
+<a href="https://www.siam.org/Portals/0/Publications/SIURO/Vol15/S143889PDF.pdf?ver=2022-02-17-155104-210">Publication (SIAM Undergraduate Research Online).</a>  <br>
 <a href="https://www.math.unl.edu/~ncuwm/23rdAnnual/">23rd Annual Nebraska Conference for Undergraduate Women in Mathematics</a> <br>
-<a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">Full recording of my NCUWM presentation</a>, starting at roughly the 16 minute mark. 
-<a href="https://www.siam.org/Portals/0/Publications/SIURO/Vol15/S143889PDF.pdf?ver=2022-02-17-155104-210">Full paper available here.</a> 
+<a href="https://www.youtube.com/watch?v=YEHXWofqRZY&feature=youtu.be">Full recording of my NCUWM presentation</a>, starting at roughly the 16 minute mark. <br>
 
 ### Motivation for Research
 In recent years, graphene has gained significant popularity as a building material and energy storage medium with a wide variety of applications. One of graphene’s most unique properties is its conductivity, which is enhanced by mass-less fermions that enable loss-less electron transfer across a graphene sheet. 
