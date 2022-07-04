@@ -42,6 +42,7 @@
 ---
 
 ### Certifications and Awards
+[Herman A. Moench Distinguished Senior Commendation](https://www.rose-hulman.edu/news/2022/graduates-recognized-for-scholastic-successes-campus-leadership.html) <br>
 12x Rose-Hulman Dean's List (All Quarters Attended)<br>
 Chevron Scholar 2021-22 with Scholarship Award (In Partnership with the Society of Asian Scientists and Engineers) <br>
 [Henry Turner Eddy Award for Applications of Mathematics](https://www.linkedin.com/feed/update/urn:li:activity:6800106991168696320/) <br>
